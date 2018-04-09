@@ -1,8 +1,13 @@
 # JavaScript Frutas Web app and REST API #
 
-JS Developer Test by [E-restó][1]
+ReactJS Developer Test by [E-restó][1]
 
 Author: [Francis Rodrigues][2]
+
+
+## Screenshot ##
+
+![E-restó screenshot](./e-resto-screenshot.png)
 
 
 ## Environments ##
