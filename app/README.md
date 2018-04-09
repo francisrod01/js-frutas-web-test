@@ -1,4 +1,4 @@
-# JavaScript Frutas Web app and REST API #
+# JavaScript Frutas Web app #
 
 ReactJS Developer Test by [E-restó][1]
 
