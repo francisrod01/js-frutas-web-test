@@ -13,6 +13,45 @@ Author: [Francis Rodrigues][2]
   * EcmaScript 6
   * EcmaScript Lint
 
+## API Routes ##
+
+@GET request to all fruits: `/api/fruits`
+
+```json
+[
+    {
+        "id": 1,
+        "name": "Fresas",
+        "color": "rojo"
+    },
+    {
+        "id": 2,
+        "name": "Kiwi",
+        "color": "verde"
+    },
+    {
+        "id": 3,
+        "name": "Mango",
+        "color": "amarillo"
+    },
+    {
+        "id": 4,
+        "name": "Naranja",
+        "color": "naranja"
+    }
+]
+```
+
+@GET request to a fruit by id: `/api/fruit/:id`
+
+```json
+{
+  "id": 1,
+  "name": "Fresas",
+  "color": "rojo"
+}
+```
+
 ## References ##
 
 * [Using SQLite /w Node.js for Rapid Prototyping][3]
