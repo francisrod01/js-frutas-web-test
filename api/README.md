@@ -16,6 +16,7 @@ Author: [Francis Rodrigues][2]
 ## References ##
 
 * [Using SQLite /w Node.js for Rapid Prototyping][3]
+* [Storing JSON file to SQLite database using Node.js][4]
 
 ## License ##
 
@@ -24,3 +25,4 @@ MIT
   [1]: https://e-resto.com/
   [2]: https://github.com/francisrod01/
   [3]: https://medium.com/@tarkus/node-js-and-sqlite-for-rapid-prototyping-bc9cf1f26f10
+  [4]: https://stackoverflow.com/a/34019478/3332734
