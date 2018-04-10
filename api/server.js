@@ -23,6 +23,5 @@ Promise.resolve()
   // Finally launch the Node.js app.
   .finally(() => {
     /* eslint-disable-next-line no-console */
-    console.log('Node.js API connected to port: ', port);
-    app.listen(port);
+    app.listen(port, () => console.log('Node.js API connected to port: ', port));
   });
