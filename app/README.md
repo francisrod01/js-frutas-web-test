@@ -50,5 +50,10 @@ To run this web app using env variables create a `.dev.env` in the root project 
 API_URL=http://localhost:5000/api/
 ```
 
+## License ##
+
+MIT
+
+
   [1]: https://e-resto.com/
   [2]: https://github.com/francisrod01/
