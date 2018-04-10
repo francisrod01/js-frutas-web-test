@@ -7,6 +7,10 @@
   "author": "Francis Rodrigues",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "./node_modules/eslint/bin/eslint.js . && nodemon server.js"
+  },
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
@@ -16,6 +20,7 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.10.0"
+    "eslint-plugin-import": "^2.10.0",
+    "nodemon": "^1.17.3"
   }
 }
