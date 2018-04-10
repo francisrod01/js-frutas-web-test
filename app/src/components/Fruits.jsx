@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import jsonData from '../datos.json';
+import Api from '../api';
 
 import '../statics/styles/Fruits.css';
 
@@ -28,8 +28,13 @@ class AppContent extends Component {
       fruit: null,
     };
   }
-  componentWillMount() {
-    this.setState({ fruitsList: jsonData });
+  async componentWillMount() {
+    await Api.loadFruits()
+      .then((resultData) => {
+        if (resultData.status === 200) {
+          this.setState({ fruitsList: resultData.data });
+        }
+      });
   }
   onClickItem(item) {
     this.setState({ fruit: item });
