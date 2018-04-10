@@ -1,9 +1,16 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const db = require('sqlite');
 const Promise = require('bluebird');
 
 const app = express();
 const port = process.env.PORT || 5000;
+
+// Configure app to use bodyParser
+// This will let us get the data from a POST.
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
 
 Promise.resolve()
   // First, try to open the database.
