@@ -17,6 +17,18 @@ const router = express.Router();
 /* eslint-disable-next-line no-unused-vars */
 const fruits = require('./routes/fruits')(router, db);
 
+
+// CORS middleware
+const allowCrossDomain = (req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+
+  next();
+};
+app.use(allowCrossDomain);
+
+
 // Register our routes.
 app.use('/api', router);
 
