@@ -5,11 +5,12 @@
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.3.1",
+    "react-app-env": "^1.2.0",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-env --env-file=.dev.env start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
