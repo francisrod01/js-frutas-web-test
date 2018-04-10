@@ -22,5 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Sqlite files
+*.sqlite
+
 # VsCode features
 .history/
