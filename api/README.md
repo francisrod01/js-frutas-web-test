@@ -42,7 +42,7 @@ Author: [Francis Rodrigues][2]
 ]
 ```
 
-@GET request to a fruit by id: `/api/fruit/:id`
+@GET request to a fruit by id: `/api/fruits/:id`
 
 ```json
 {
