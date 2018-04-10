@@ -4,33 +4,31 @@ ReactJS Developer Test by [E-restó][1]
 
 Author: [Francis Rodrigues][2]
 
-
 ## Screenshot ##
 
 ![E-restó screenshot](./e-resto-screenshot.png)
 
-
 ## Environments ##
 
 * Web app using:
-  - Thinking in Component Structure
-  - Airbnb JavaScript, React/JSX Style Guide
-  - ReactJS
-  - EcmaScript 6
-  - EcmaScript Lint
-  - Jest test
-
+  * Thinking in Component Structure
+  * Airbnb JavaScript, React/JSX Style Guide
+  * ReactJS
+  * EcmaScript 6
+  * EcmaScript Lint
+  * Jest test
 
 ## How to run in development machine? ##
 
 Running in a console using `npm start` or `yarn start` command:
 
-```
+```bash
 ~$ yarn start
 ```
+
 The output of this command as below:
 
-```
+```bash
 Compiled successfully!
 
 You can now view app in the browser.
@@ -46,14 +44,13 @@ To create a production build, use yarn build.
 
 To run this web app using env variables create a `.dev.env` in the root project and type a API url:
 
-```
+```env
 API_URL=http://localhost:5000/api/
 ```
 
 ## License ##
 
 MIT
-
 
   [1]: https://e-resto.com/
   [2]: https://github.com/francisrod01/
