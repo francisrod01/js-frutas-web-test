@@ -11,6 +11,15 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// Routes for our API.
+const router = express.Router();
+
+/* eslint-disable-next-line no-unused-vars */
+const fruits = require('./routes/fruits')(router, db);
+
+// Register our routes.
+app.use('/api', router);
+
 
 Promise.resolve()
   // First, try to open the database.
